@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Project Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+         <div class="menu-icon" id="menu-icon">&#9776;</div> <!-- Hamburger icon -->
+        <div class="nav-links" id="nav-links">
+         <a href="#">Home</a>
+        <a href="#aboutme">About me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact me</a>
+    </div>
+    </nav>
+
+    <header>
+        <h3>Hi, I am</h3>
+        <h1>Maheli Samaraweera</h1>
+        <p>IT Undergraduate | Web Developer</p>
+
+        <a href="https://https://github.com/Maheli10" target="_blank">
+            <img src="github.png" alt="GitHub" class="icon">
+    </a>
+
+        <a href="https://linkedin.com/in/maheli-samaraweera" target="_blank">
+            <img src="linkedin.png" alt="LinkedIn" class="icon">
+        </a>
+
+    </header>
+
+    <section id="aboutme">
+    <h2>About Me</h2>
+    <hr>
+
+    <div class="about-grid">
+        <div class="about-text">
+            <p>
+                I am an IT student and aspiring web developer with a 
+                passion for creating clean, responsive, and user-friendly 
+                websites. Skilled in HTML, CSS, JavaScript, PHP,Java and Python, 
+                I enjoy turning ideas into practical projects. I am constantly
+                 learning new technologies to build innovative solutions
+                 and deliver visually appealing, functional applications.
+            </p>
+        </div>
+        <div class="profile-pic">
+            <img src="profile.png" alt="Profile Picture">
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <hr>
+
+    <div class="skills-grid">
+
+        <div class="skill">
+            <span>HTML</span>
+            <div class="bar"><div class="level html"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+            <div class="bar"><div class="level css"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="bar"><div class="level js"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>PHP</span>
+            <div class="bar"><div class="level php"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>Java</span>
+            <div class="bar"><div class="level java"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>Python</span>
+            <div class="bar"><div class="level python"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>C#</span>
+            <div class="bar"><div class="level csharp"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>C++</span>
+            <div class="bar"><div class="level cpp"></div></div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="certificates">
+    <h2>Certificates</h2>
+    <hr>
+
+    <div class="cert-grid">
+        <div class="cert-card">
+            <h4>Web Development</h4>
+            <p>Udemy</p>
+        </div>
+
+        <div class="cert-card">
+            <h4>HTML & CSS</h4>
+            <p>SoloLearn</p>
+        </div>
+
+        <div class="cert-card">
+            <h4>Cyber Security Basics</h4>
+            <p>Cisco</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="portfolio">
+        <h2>Portfolio</h2><hr>
+        <div class="portfolio-grid">
+            <div class="portfolio-item"><a href="portfolio.html"> Portfolio Website</a>
+            <p>A basic introduction and a collection of projects I have worked
+                 on as an IT student and aspiring web developer</p></div>
+            <div class="portfolio-item">Project2</div>
+            <div class="portfolio-item">Project3</div>
+            <div class="portfolio-item">Project4</div>
+            <div class="portfolio-item">Project5</div>
+            <div class="portfolio-item">Project6</div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2><hr><br>
+        <div class="contact-grid">
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                 <textarea placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+            <div class="fb"><span>Facebook</span></div>
+            <div class="twitter"><span>Twitter</span></div>
+            <div class="YouTube"><span>YouTube</span></div>
+            <div class="ig"><span>Instagram</span></div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 My Portfolio</p>
+        <address>mahelisamaraweera10@gmail.com</address>
+    </footer>
+
+    <script>
+    const menuIcon = document.getElementById("menu-icon");
+    const navLinks = document.getElementById("nav-links");
+
+    menuIcon.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+</script>
+
+</body>
+</html>
